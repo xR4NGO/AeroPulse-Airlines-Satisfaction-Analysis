@@ -73,51 +73,52 @@ We compared satisfied passengers (Overall_Satisfaction = “Satisfaction”) wit
 <div align="center">
   <img src="Visualization%20PNGs/At-risk%20Segments%20Breakdown.png" alt="At-risk segments breakdown" width="100%">
 </div>
+<table border="0" cellpadding="12" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" style="text-align: center;">
+      <h4>Tier 1: High-Impact Factors (The Priorities)</h4>
+    </td>
+   <td width="50%" style="text-align: center;">
+      <h4>Tier 2: Secondary Factors (The Nuance)</h4>
+    </td>
+  </tr>
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap;">
-  <div style="flex: 0.6; min-width: 250px; border-right: 3px solid #ddd; padding-right: 2rem;">
-    <h4>Tier 1: High‑Impact Factors (The Priorities)</h4>
-    <ul>
-      <li>
-        <strong>Class:</strong> Cramér’s V = 0.44 (considerable).<br>
-        – Business class: 71% satisfied<br>
-        – Economy: 39% satisfied<br>
-        – Eco Plus: 43% satisfied<br>
-        <em>Insight:</em> Economy class is the primary dissatisfied segment. Investing in better seats or perks for this group would yield the largest improvement in satisfaction.
-      </li>
-      <li>
-        <strong>Customer Type:</strong> Cramér’s V = 0.29 (moderate).<br>
-        – Loyal customers: 62% satisfied<br>
-        – Disloyal customers: 24% satisfied<br>
-        <em>Insight:</em> Disloyal customers are disproportionately dissatisfied. This suggests a failure in the first‑time user experience or a lack of incentives to stay. Focus on onboarding and loyalty enrolment.
-      </li>
-    </ul>
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <h4>Tier 2: Secondary Factors (The Nuance)</h4>
-    <ul>
-      <li>
-        <strong>Gender:</strong> Cramér’s V = 0.21 (small‑to‑moderate).<br>
-        – Female: 65% satisfied<br>
-        – Male: 44% satisfied<br>
-        <em>Insight:</em> While gender shows a meaningful gap, its effect is smaller than class or loyalty. Tailored marketing may help, but it is not a primary predictor of dissatisfaction.
-      </li>
-      <li>
-        <strong>Age:</strong> Cohen’s d = 0.24 (small‑to‑medium).<br>
-        – Satisfied: mean age 41.05<br>
-        – Dissatisfied: mean age 37.47<br>
-        <em>Insight:</em> Younger passengers are somewhat more dissatisfied. However, the difference is modest (3.6 years). Consider entertainment or digital offerings that appeal to younger demographics, but do not prioritise over class and loyalty.
-      </li>
-      <li>
-        <strong>Travel Type:</strong> Cramér’s V = 0.11 (negligible).<br>
-        – Business: 58% satisfied<br>
-        – Personal: 47% satisfied<br>
-        <em>Insight:</em> The difference is small and likely not actionable on its own.
-      </li>
-    </ul>
-  </div>
-</div>  
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><strong>Class:</strong> Cramer's V = 0.44 (considerable).<br>
+        - Business class: 71% satisfied<br>
+        - Economy: 39% satisfied<br>
+        - Eco Plus: 43% satisfied<br>
+        <em>Insight:</em> Economy class is the primary dissatisfied segment. Investing in better seats or perks for this group would yield the largest improvement in satisfaction.</li>
 
+  <li><strong>Customer Type:</strong> Cramer's V = 0.29 (moderate).<br>
+        - Loyal customers: 62% satisfied<br>
+        - Disloyal customers: 24% satisfied<br>
+        <em>Insight:</em> Disloyal customers are disproportionately dissatisfied. This suggests a failure in the first-time user experience or a lack of incentives to stay. Focus on onboarding and loyalty enrolment.</li>
+      </ul>
+    </td>
+
+  <td valign="top">
+      <ul>
+        <li><strong>Gender:</strong> Cramer's V = 0.21 (small-to-moderate).<br>
+        - Female: 65% satisfied<br>
+        - Male: 44% satisfied<br>
+        <em>Insight:</em> While gender shows a meaningful gap, its effect is smaller than class or loyalty. Tailored marketing may help, but it is not a primary predictor of dissatisfaction.</li>
+
+  <li><strong>Age:</strong> Cohen's d = 0.24 (small-to-medium).<br>
+        - Satisfied: mean age 41.05<br>
+        - Dissatisfied: mean age 37.47<br>
+        <em>Insight:</em> Younger passengers are somewhat more dissatisfied. However, the difference is modest (3.6 years). Consider entertainment or digital offerings that appeal to younger demographics, but do not prioritise over class and loyalty.</li>
+
+  <li><strong>Travel Type:</strong> Cramer's V = 0.11 (negligible).<br>
+        - Business: 58% satisfied<br>
+        - Personal: 47% satisfied<br>
+        <em>Insight:</em> The difference is small and likely not actionable on its own.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 ---
 
 ### 3. What Drives Overall Satisfaction? (Logistic Regression & Marginal Effects)
