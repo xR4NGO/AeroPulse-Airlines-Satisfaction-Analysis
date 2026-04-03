@@ -45,7 +45,7 @@ All statistical tests were performed with appropriate assumptions checked:
 - **Service impact**: Multiple logistic regression + Average Marginal Effects (AME), plus diagnostics (VIF, univariate regressions, reduced models) to investigate unexpected coefficients.
 
 <div align="center">
-  <img src="Visualization%20PNGs/Cleaning%20Steps.png" alt="Data cleaning flowchart" width="100%">
+  <img src="Visualization%20PNGs/Cleaning%20Steps%20Flowchart.png" alt="Data cleaning flowchart" width="100%">
 </div>
 
 ---
