@@ -28,7 +28,7 @@ Reporting to the VP of Operations, an in-depth analysis was conducted to evaluat
 
 | Area | Summary |
 |------|---------|
-| **Best & worst rated services** | ✅ Top 3: Cleanliness (3.72/5), Baggage handling (3.71/5), Online support (3.54/5)<br>⚠️ Bottom 3: Food & drink (2.99/5), Seat comfort (2.95/5), Gate location (3.00/5)<br>📉 Lowest rated overall: **Seat comfort (2.95/5)** |
+| **Best & worst rated services** | **Top 3:** Cleanliness (3.72/5), Baggage handling (3.71/5), Online support (3.54/5)<br> **Bottom 3:** Food & drink (2.99/5), Seat comfort (2.95/5), Gate location (3.00/5)<br> **Lowest rated overall:** **Seat comfort (2.95/5)** |
 | **Who is satisfied vs. dissatisfied?** (strongest predictors) | **More satisfied:** Business class (71% satisfied), Loyal customers (62%)<br>**More dissatisfied:** Economy class (39% satisfied), Disloyal customers (24%)<br>These differences are both statistically significant and practically meaningful (Cramér’s V = 0.44 and 0.29 respectively). Gender and age also show differences, but their influence is secondary. |
 | **Top 3 drivers of satisfaction** (Average Marginal Effect) | 1. Inflight entertainment – +11.7 pp per 1‑point increase<br>2. Seat comfort – +5.8 pp<br>3. Ease of online booking – +5.2 pp |
 ---
