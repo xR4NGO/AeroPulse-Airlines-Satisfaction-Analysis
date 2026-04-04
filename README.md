@@ -8,7 +8,7 @@
 
 **AeroPulse** is a global airline operating a diverse fleet serving both business and leisure travellers. Since its founding in 2015, the company has expanded rapidly, but like many in the industry, it faces increasing competition and evolving passenger expectations. To better understand its customers and improve service quality, AeroPulse conducted a satisfaction survey of its passengers.
 
-The dataset contains **129,880 responses** with 24 variables, including service ratings (1‑5, plus “Not Applicable”), passenger demographics, travel details, and overall satisfaction (Satisfied / Neutral / Dissatisfied). The company’s customer base spans a wide range of travel classes, loyalty statuses, and age groups.
+The dataset contains **129,880 responses** with 23 variables, including service ratings (1‑5, plus “Not Applicable”), passenger demographics, travel details, and overall satisfaction (Satisfied / Neutral or Dissatisfied). The company’s customer base spans a wide range of travel classes, loyalty statuses, and age groups.
 
 Reporting to the VP of Operations, an in-depth analysis was conducted to evaluate AeroPulse’s performance across key service areas. This comprehensive review provides actionable insights that will help the company streamline operations, enhance passenger satisfaction, and retain valuable customers. The analysis focuses on three main questions:
 
