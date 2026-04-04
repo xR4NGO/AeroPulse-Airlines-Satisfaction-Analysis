@@ -119,6 +119,7 @@ We compared satisfied passengers (Overall_Satisfaction = “Satisfaction”) wit
     </td>
   </tr>
 </table>
+
 ---
 
 ### 3. What Drives Overall Satisfaction? (Logistic Regression & Marginal Effects)
@@ -218,7 +219,6 @@ Combining the **rating gaps** (lowest rated services) with the **impact on satis
 - **Data cleaning:** Rows with any service rating = 0 (Not Applicable) were removed for service‑related analyses only. Final sample size for regression: 119,612. Full dataset used for passenger characteristics: 129,880.
 - **Reproducibility:** The Excel workbook with all formulas, pivot tables, and XLMiner outputs, is included in this repository. Any user can follow the tabs and see the exact calculations.
 
----
 
 <hr>
 
