@@ -187,8 +187,9 @@ Combining the **rating gaps** (lowest rated services) with the **impact on satis
 
 <h1 align="center">Recommendations</h1>
 
-- **Immediate operational fix:** **Seat comfort** (2.95/5) is the lowest rated and the second most impactful driver. Invest in new seat cushions, legroom reconfiguration, or premium economy upgrades. Run A/B tests on a subset of aircraft.
-- **High‑impact, moderate‑rating services:** **Inflight entertainment** (3.47/5) has the highest AME (+11.7 pp). Update content libraries, improve screen quality, and promote availability. This yields the biggest satisfaction lift per unit improvement.
+- **Immediate operational fix:** **Seat comfort** (2.95/5) is the lowest rated and the second most impactful driver. However, legroom service ranks #4 overall (3.52/5), with strong ratings across all classes (Business: 80% rate 4+, Eco: 67%, Eco Plus: 63%). This suggests the issue is not legroom but the seat itself; likely cushioning or design.
+  - First, diagnose: test seat padding firmness, material wear, and ergonomics on a sample of aircraft. If cushioning is the culprit, replace with higher‑density foam or memory foam. If seat size or shape is the problem, a full retrofit may be needed. Run A/B tests on a subset of planes before rolling out fleet‑wide.
+-  **High‑impact, moderate‑rating services:** **Inflight entertainment** (3.47/5) has the highest AME (+11.7 pp). Update content libraries, improve screen quality, and promote availability. This yields the biggest satisfaction lift per unit improvement.
 - **Digital experience:** **Ease of online booking** (3.51/5) drives satisfaction and is correlated with wifi and online support. Streamline the booking funnel and ensure the website/app is fast and intuitive.
 
 - **Target at‑risk segments (prioritised by impact):**  
@@ -207,13 +208,13 @@ Combining the **rating gaps** (lowest rated services) with the **impact on satis
 
 <h1 align="center">Technical Appendix</h1>
 
-- **Software:** Microsoft Excel (Office 365).  
+- **Software:** Microsoft Excel.  
   - **Data cleaning and summary statistics:** Built‑in functions (`XLOOKUP`, `STDEV.S`, `TOCOL`, etc.).  
   - **t‑Test:** Built-in function (`SKEW`, `SQRT`), Data Analysis Toolpak.  
-  - **Logistic regression:** XLMiner (for coefficient estimates, odds ratios, marginal effects).  
+  - **Logistic regression:** XLMiner (for coefficient estimates, odds ratios).  
   - **Chi-Square, VIF, AME:** Manual calculations using built-in functions.  
 - **Effect size benchmarks:** Cramér’s V: 0.1 = small, 0.3 = moderate, 0.5 = large. Cohen’s d: 0.2 = small, 0.5 = medium, 0.8 = large.
-- **Logistic regression diagnostics:** Pseudo R‑square (calculated as McFadden’s, but not included in the final output because it is less interpretable (check the full Excel workbook "AeroPulse Airlines Satisfaction Analysis"); the focus is on marginal effects and odds ratios). VIF all < 4. Negative coefficients for wifi and departure time were investigated with univariate and reduced models as described.
+- **Logistic regression diagnostics:** Pseudo R‑square (calculated as McFadden’s, but not included in the final output because it is less interpretable (check the full Excel workbook inside the repository or from the link below); the focus is on marginal effects and odds ratios). VIF all < 4. Negative coefficients for wifi and departure time were investigated with univariate and reduced models as described.
 - **Data cleaning:** Rows with any service rating = 0 (Not Applicable) were removed for service‑related analyses only. Final sample size for regression: 119,612. Full dataset used for passenger characteristics: 129,880.
 - **Reproducibility:** The Excel workbook with all formulas, pivot tables, and XLMiner outputs, is included in this repository. Any user can follow the tabs and see the exact calculations.
 
